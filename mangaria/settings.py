@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-&6y$6bcqv&s*ajv#!vei=-s!f4pxd)5v0)74ov4rpmkc@)z1%j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'mangaria-curso-django.herokuapp.com',
+]
 
 
 # Application definition
